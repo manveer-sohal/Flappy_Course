@@ -1,0 +1,178 @@
+body {
+  font-family: sans-serif;
+  background-color: palevioletred;
+  min-width: 1000px;
+}
+main {
+  position: relative;
+  background-color: white;
+  height: 100vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+Title {
+  text-shadow: 2px 2px #1b0e0e;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  background-color: violet;
+  color: red;
+  font-size: 15vh;
+  position: relative;
+}
+
+button {
+  background-color: red;
+  padding: 10px;
+  position: relative;
+}
+
+nav {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  min-width: 500px;
+}
+
+#home:nth-child(odd) {
+  position: relative;
+  list-style: none;
+  text-align: left;
+  background-color: lightgrey;
+  padding: 20px;
+}
+nav a {
+  overflow-wrap: break-word;
+  position: absolute;
+  left: 150px;
+  font-size: 18px;
+  color: violet;
+}
+nav p1 {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  font-size: 18px;
+  color: violet;
+}
+nav p2 {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  font-size: 18px;
+  color: violet;
+}
+
+nav p3 {
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  right: 25%;
+  font-size: 18px;
+  color: violet;
+}
+nav p4 {
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 75%;
+  font-size: 18px;
+  color: violet;
+}
+nav p5 {
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 85%;
+  font-size: 18px;
+  color: violet;
+}
+
+#home:nth-child(even) {
+  position: relative;
+  list-style: none;
+  text-align: left;
+  background-color: white;
+  padding: 20px;
+}
+
+subTitle {
+  font-size: 5em;
+  text-align: left;
+}
+bird {
+  border: gray 2px solid;
+  position: relative;
+  list-style: none;
+  text-align: left;
+  padding: 20px;
+  left: 73%;
+}
+ul a {
+  border: gray 2px solid;
+  position: relative;
+  list-style: none;
+  text-align: left;
+  padding: 20px;
+  left: 30%;
+  top: 20px;
+}
+ul a:hover {
+  padding: 18px;
+}
+page1 {
+  display: inline;
+}
+page2 {
+  display: none;
+}
+ul a:checked {
+  color: black;
+}
+#A {
+  background-color: green;
+}
+#B {
+  background-color: lightgreen;
+}
+#C {
+  background-color: orange;
+}
+#D {
+  background-color: red;
+}
+ul {
+  position: relative;
+}
+review {
+  background-color: red;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  min-width: 500px;
+  position: relative;
+}
+
+#text li {
+  overflow-wrap: break-word;
+  border: gray 2px solid;
+  position: absolute;
+  list-style: none;
+  text-align: left;
+  padding: 20px;
+}
+p7 {
+  position: absolute;
+  display: inline;
+  padding: 10px;
+  background-color: violet;
+  position: absolute;
+  font-size: 18px;
+  color: red;
+}
